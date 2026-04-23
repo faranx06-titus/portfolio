@@ -224,7 +224,13 @@ const projects = {
     ],
     tech: "Python, NLTK, Transformers",
     live: "#",
-    github: "#"
+    github: "#",
+    images: [
+    "images/1_Sentiment.png",
+    "images/2_Text.png",
+    "images/3_Keyword.png",
+    "images/4_Span.png"
+    ]
   },
 
   data: {
@@ -331,3 +337,4 @@ window.addEventListener("click", (e) => {
         aboutModal.classList.remove("active");
     }
 });
+ 
