@@ -179,7 +179,7 @@ const projects = {
     ],
     tech: "Python, Transformers, RAG, Streamlit",
     live: "#",
-    github: "#"
+    github: "https://github.com/faranx06-titus/ClauseForge"
   },
 
   interview: {
@@ -194,7 +194,7 @@ const projects = {
     ],
     tech: "Python, NLP, ML models",
     live: "#",
-    github: "#"
+    github: "https://github.com/faranx06-titus/AI-Interview_Analyzer"
   },
 
   recommendation: {
@@ -209,7 +209,7 @@ const projects = {
     ],
     tech: "Python, Pandas, Scikit-learn",
     live: "#",
-    github: "#"
+    github: "https://github.com/faranx06-titus/recommendation-system"
   },
 
   nlp: {

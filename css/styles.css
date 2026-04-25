@@ -601,65 +601,6 @@ section
 ::-webkit-scrollbar-track {
     background-color: var(--bg-color);
 }
-/*.heading{
-    text-align: center;
-    font-size: 7rem;
-    margin: 5rem 0;
-}
-.services{
-   background-color: black;
-   color: white;
-   font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif; 
-}
-.service-container{
-    display: grid;
-    grid-template-columns: repeat(auto-fit ,minmax(300px ,1fr));
-    align-items: center;
-    gap: 2.5rem;
-}
-.service-box{
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    background-color: var(--main-color);
-    height: 400px;
-    border-radius: 3rem;
-    cursor: pointer;
-    border: 5px solid transparent;
-    transition: 0.4s ease-in-out;
-}
-.service-box:hover{
-    background-color: var(--second-bg-color);
-    color: var(--main-color);
-    border: 5px solid var(--main-color);
-    transform: scale(1.03);
-}
-.service-info{
-    display: flex;
-    flex-direction: column;
-    text-align: center;
-    justify-content: center;
-    align-items: center;
-    padding: 5rem;
-
-}
-.service-info h4{
-    font-size: 4rem;
-    margin: 2rem 0;
-    font-weight: 800;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-.service-info p{
-    font-size: 1.6rem;
-    line-height: 1.5;
-    font-weight: 600;
-    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
-    
-}
-.service-info i{
-    font-size: 8rem;
-}*/
 
 .services {
    background-color: black;
@@ -675,6 +616,7 @@ section
 
 .heading span {
     background: linear-gradient(270deg, #00f7ff, #8a2be2);
+    background-clip: text;
     -webkit-background-clip: text;
     color: transparent;
 }
@@ -703,7 +645,7 @@ section
     overflow: hidden;
 }
 
-/* GLOW BORDER */
+/* GLOW BORDER */s
 .service-box::before {
     content: "";
     position: absolute;
@@ -712,7 +654,9 @@ section
     padding: 2px;
     background: linear-gradient(270deg, #00f7ff, #8a2be2);
     -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
+    
     -webkit-mask-composite: xor;
+     
     opacity: 0;
     transition: 0.3s;
 }
@@ -965,112 +909,7 @@ section
     flex-direction: column;
     gap: 2rem;
 }
-/*.projects {
-    padding: 8rem 5rem;
-    background: var(--second-bg-color);
-}
 
-.project-box {
-    display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
-    gap: 4rem;
-}
-
-.project-card {
-    position: relative;
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(15px);
-    border-radius: 2rem;
-    padding: 2rem;
-    text-align: center;
-    transition: 0.4s ease;
-    cursor: pointer;
-    overflow: hidden;
-}
-
-.project-card:hover {
-    transform: translateY(-10px) scale(1.03);
-    box-shadow: 0 0 30px var(--main-color);
-}
-
-.project-card::before {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: 2rem;
-    padding: 2px;
-    background: linear-gradient(270deg, #00f7ff, #8a2be2);
-    -webkit-mask: linear-gradient(#000 0 0) content-box, linear-gradient(#000 0 0);
-    -webkit-mask-composite: xor;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.project-card:hover::before {
-    opacity: 1;
-}
-
-.project-card img {
-    width: 80%;
-    max-width: 220px;
-    border-radius: 1.5rem;
-}
-
-.project-overlay {
-    position: absolute;
-    inset: 0;
-    background: rgba(0,0,0,0.7);
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    opacity: 0;
-    transition: 0.3s;
-}
-
-.project-card:hover .project-overlay {
-    opacity: 1;
-}
-
-.project-overlay h4 {
-    color: var(--main-color);
-}
- 
-.project-modal {
-    position: fixed;
-    top:0;
-    left:0;
-    width:100%;
-    height:100%;
-    background: rgba(0,0,0,0.7);
-    display:flex;
-    justify-content:center;
-    align-items:center;
-    opacity:0;
-    visibility:hidden;
-    transition:0.3s;
-}
-
-.project-modal.active {
-    opacity:1;
-    visibility:visible;
-}
-
-.modal-content {
-    background: rgba(255,255,255,0.05);
-    backdrop-filter: blur(20px);
-    padding:3rem;
-    border-radius:2rem;
-    width:60%;
-    text-align:center;
-}
-
-.close-btn {
-    position:absolute;
-    right:30px;
-    top:20px;
-    font-size:3rem;
-    cursor:pointer;
-}*/
 .contact{
     background-color: var(--bg-color);
 }
