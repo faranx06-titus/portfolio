@@ -17,7 +17,7 @@ window.addEventListener("scroll", () => {
   }
 });
 
-const roles = ["ML Developer", "NLP Enthusiast", "Frontend Developer"];
+const roles = ["ML Developer", "NLP Enthusiast", "Gen AI Developer"];
 let i = 0;
 let j = 0;
 let currentRole = "";
@@ -224,7 +224,7 @@ const projects = {
     ],
     tech: "Python, NLTK, Transformers",
     live: "#",
-    github: "#",
+    github: "https://github.com/faranx06-titus/NLP-Toolkit",
     images: [
     "images/1_Sentiment.png",
     "images/2_Text.png",
